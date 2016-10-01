@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/davedelong/DDHotKey.git' }
 
   s.platform = :osx
-  s.osx.source_files = 'DDHotKeyCenter.h', 'DDHotKeyCenter.m'
+  s.osx.source_files = 'DDHotKeyCenter.h', 'DDHotKeyCenter.m', 'DDHotKeyTextField.h', 'DDHotKeyTextField.m', 'DDHotKeyUtilities.h', 'DDHotKeyUtilities.m'
 
   s.framework = 'Carbon'
 end
